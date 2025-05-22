@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      padding: 15px;
+    }
+
+    h1 {
+      text-align: center;
+      background: #333;
+      color: white;
+      margin: 0 0 10px 0;
+      padding: 15px;
+      font-size: 22px;
+      border-radius: 8px;
+    }
+
+    .icon {
+      display: block;
+      margin: 10px auto 10px auto;
+      max-width: 100px;
+      height: auto;
+    }
+
+    .developer-text {
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: opacity 0.3s;
+    }
+
+    .red { background-color: #e74c3c; }
+    .green { background-color: #27ae60; }
+    .blue { background-color: #2980b9; }
+    .black { background-color: #2c3e50; }
+
+    .button:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>IMANI EDUCATION CENTRE</h1>
+
+    <!-- Icon image below heading -->
+    <img src="https://i.imgur.com/KSg7xKS.png" alt="System Icon" class="icon">
+
+    <!-- Developer text below icon -->
+    <div class="developer-text">
+      Developed by Masomo Digital Library. Tel: 0715399449
+    </div>
+    <a href="https://masomodigital.github.io/addnewstudi-sample-system/" class="button green">ADD NEW STUDENT</a>
+    <a href="https://script.google.com/macros/s/AKfycbxuS9GZGOW-wWgTHlzKzziio_pk6ruxaKe8uYdSpbnzh_xH2I1r8Pzq6YahoVkqVYrg/exec" class="button red">UPDATE STUDENT RECORD</a>
+    <a href="https://script.google.com/macros/s/AKfycbyIx2WXgzLhWaLrHrfLwPOtFsgRAz2kq7DfqIAia5CEJ4OQyyCowgdP4yML9apoFC0c/exec" class="button blue">RECEIVE FEE / CHECK BALANCE</a>
+    <a href="https://script.google.com/macros/s/AKfycbyDziBOFUQK3Ym4Pm9WLOeWqoe6mFvfeh-Zhap6v-DQp9yCV8JBwYZXlBsveLVOtAnyoA/exec" class="button black">FEE BALANCE PER CLASS</a>
+    <a href="https://script.google.com/macros/s/AKfycbyeOz9MIGj6b-kLqIh3V5ncgOk-FrDiybiJcs2O-Qe-xQt45zuEN5TDxvat-VzbCiNK3Q/exec" class="button red">TOTAL EXPECTED COLLECTIONS</a>
+    <a href="https://script.google.com/macros/s/AKfycby_kNuMOxa5pVRJWJdxHpgeSJzDYsOdftnNpcMiirGoFiEdLbDn5eKEiGowgFxbAatQ/exec" class="button green">STUDENT LIST PER GRADE</a>
+    <a href="https://masomodigital.github.io/fee-structure/" class="button blue">UPDATE FEE STRUCTURE</a>
+    <a href="https://script.google.com/macros/s/AKfycbwu0QsdaOaQo_Dsqeg9IcVY1RCpH2GklCoG4oLFTm97oA_Hc3UrTREI3MroXt4UyPqT0g/exec" class="button black">DELETE STUDENT</a>
+    <a href="https://script.google.com/macros/s/AKfycbwcyU2qteqI2AK-Ej_iGYrSohBKNdQXjDTRrjYrxp591i3zRmMVAGSdms1wmOSShJLE/exec" class="button red">CREATE LETTERS</a>
+    <a href="https://script.google.com/macros/s/AKfycbw7A1VSsCwDT0rAAgEuFoKdBMBAFo3RnYrtnGnN6lVIEvDjNvbOAQDoEbozLFS6-LVR/exec" class="button green">PRINT LATE RECEIPTS</a>
+    <a href="https://masomodigital.github.io/specialfees-SBMS/" class="button black">DISCOUNTS AND SPECIAL FEES</a>
+    <a href="https://script.google.com/macros/s/AKfycbxAV7x1mdbYDlvrE-DUZnQx8uD-Gk5tCugsUf-9ASTaDrK7AGAde8UFAHlqqqWETkNx/exec" class="button blue">CORRECT PAYMENT</a>
+    <a href="https://script.google.com/macros/s/AKfycbzEOv2ArWRX4WXBYyobF0QTBoGXS3Uk372SdW296FMEberCujlQj8QO9nIhF8CmEu4V/exec" class="button black">UPDATE TERM</a>
+    <a href="https://script.google.com/macros/s/AKfycbyZ9zBzMU98QdupNei6vxq4FD3ZHax24xJ0SHVMGlGNqy0VsGismh96-Oaf8oCWdB5A_g/exec" class="button blue">SEND SMS TO PARENTS</a>
+    <a href="https://script.google.com/macros/s/AKfycbzH_853ps-9WsIPUCGZKSMr58h0EYTAv0KWjaqpy-WxeIEZQ4yFwT6_8cIorgNtMfMibA/exec" class="button red">SEND SMS FEES REMINDERS</a>
+     <a href="https://script.google.com/macros/s/AKfycbw0xA2hr9kSek6el1Ri_j7kI4xOYVtETFcIJ2iPi4wBfW3CFOOrctggcSfNN0YZyMbnyw/exec" class="button black">CHECK SMS BALANCE</a>
+  </div>
+</body>
+</html>
